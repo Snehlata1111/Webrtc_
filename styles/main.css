@@ -185,3 +185,43 @@ a {
     background-color: transparent;
   }
 }
+
+
+
+
+.project-card {
+  background-color: #0f0f0f;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto;
+  max-width: 600px;
+  color: #eee;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.project-title {
+  font-size: 1.8rem;
+  color: #4ea8ff;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #bdbdbd;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-tag {
+  background-color: #f45a3b;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
